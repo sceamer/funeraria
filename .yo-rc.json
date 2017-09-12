@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "sceamer",
+    "baseName": "funeraria",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angular1",
+    "jhipsterVersion": "4.7.0",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "d32233933837e46584bbff0c6ff7ef11930d16ad",
+    "jhiPrefix": "jhi"
+  }
+}
